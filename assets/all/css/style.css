@@ -58,3 +58,29 @@ margin-right: 3rem;
 .btsalir{
     border-radius: 100%;
 }
+
+.borde{
+    border: 2px solid black;
+    border-radius: 8%;
+
+}
+
+.imhghoja{
+    margin-top: 3rem;
+    height: 150px;
+    width: 130px;
+    
+}
+
+.imgrs{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    height: 70px;
+    width: 70px;
+}
+
+.btningresar{
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    margin-block-end: 3rem;
+}
