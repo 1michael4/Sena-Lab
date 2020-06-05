@@ -19,7 +19,7 @@ margin-right: 3rem;
     
 }
 .tmbtn{
-    width: 8rem;
+    width: 10rem;
     height: 4rem;
     font-size: center;
     line-height: 1.2rem;
@@ -36,6 +36,10 @@ margin-right: 3rem;
     margin-top: 2rem;
 }
 
+.bts{
+    border-radius: 100%;
+}
+
 .cp{
     color: white;
 }
@@ -46,4 +50,11 @@ margin-right: 3rem;
 
 .imgmt{
     width: 20rem;
-    height: 3rem;}
+    height: 5rem;}
+
+
+    /* Ingresar */
+
+.btsalir{
+    border-radius: 100%;
+}
