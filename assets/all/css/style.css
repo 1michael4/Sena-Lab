@@ -3,10 +3,15 @@ footer{
     width: 100%;
 }
 
-iframe{
+.ifm{
     width: 100%;
     border-style: none;
 }
+/* navbar */
+nav{
+    width: 100%;
+}
+
 
 /*css de index*/
 
