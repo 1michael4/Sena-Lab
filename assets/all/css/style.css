@@ -53,7 +53,13 @@ margin-right: 3rem;
     height: 5rem;}
 
 
+
     /* Ingresar */
+
+.letrain{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 12px;
+}
 
 .btsalir{
     border-radius: 100%;
@@ -63,7 +69,20 @@ margin-right: 3rem;
     border: 2px solid black;
     border-radius: 5%;
     width: 23rem;
+    
+}
 
+
+
+.txd{
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    
+}
+
+.iz{
+    margin-left: 1rem;
 }
 
 .imhghoja{
@@ -85,10 +104,42 @@ margin-right: 3rem;
     margin-left: 4rem;
     margin-block-end: 7rem;
     color: black;
-    border-radius: 10%;
+    border-radius: 20px;
 
 }
 
 .imgmt2{
     width: 10rem;
     height: 2rem;}
+
+
+    /* Admin y Empleado */
+.borde1{
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+
+.in{
+    width: 90%;
+    border-radius: 20px;
+}
+.esb{
+    margin-top: 2rem;
+}
+.colfon{
+    background-color: #F4F0ED;
+}
+
+.h{
+    border: 1px solid black;
+}
+
+.txf{
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+}
+
+
+
+
