@@ -7,11 +7,11 @@ footer{
     width: 100%;
     border-style: none;
 }
+
 /* navbar */
 nav{
     width: 100%;
 }
-
 
 /*css de index*/
 
@@ -213,4 +213,12 @@ margin-right: 3rem;
 .btn24{
     margin-top: 1rem;
     
+}
+
+/* confirmacion registro */
+pbcr{
+    width: 70%;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 20px 20px 20px 20px;
 }
