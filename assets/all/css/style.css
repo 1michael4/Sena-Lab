@@ -1,7 +1,4 @@
-/* footer */
-footer{
-    width: 100%;
-}
+
 
 iframe{
     width: 100%;
@@ -29,10 +26,15 @@ margin-right: 3rem;
     
 }
 .tmbtn{
-    width: 10rem;
+    width: 12rem;
     height: 4rem;
     font-size: center;
     line-height: 1.2rem;
+    
+}
+
+.clt{
+    color: black;
 }
 
 .espacio2{
