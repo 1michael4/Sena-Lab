@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6677f676f2.js" ></script>
     <link rel="stylesheet" href="../../assets/all/css/style.css">
 </head>
 <body>
@@ -14,19 +15,85 @@
 </footer>
 <!-- Formulario Registro -->
 <section>
-    <div class="container">
+    <div class="container bres">
         <div class="row">
-            <form class="formR" action="">
-                <h2 class="TR">Registro</h2>
-                <hr>
-                <input type="text" name="nombres" class="form-control" placeholder="Nombres">
-            </form>
+            <div class="panel-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for=""><b class="br">Registro</b></label>
+                        <hr class="hrr">
+                        <div class="inner-addon left-addon">
+                            <i class="fas fa-user  item"></i>
+                            <center><input type="text" name="nombres" placeholder="Nombres" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="far fa-user item"></i>
+                            <center><input type="text" name="apellidos" placeholder="Apellidos" class="form-control ir" required></center>
+                        </div>
+                        <center><select name="transporte" aria-placeholder="Seleccionar tipo de documento" class="form-control ir" required></center>
+                            <option selected>Seleccionar tipo de documento</option>
+                            <option value="1">Cedula de Ciudadania</option>
+                            <option value="2">Cedula extranjera</option>
+                            <option value="3">Tarjeta de identidad</option>
+                        </select>
+                        <div class="inner-addon left-addon">
+                            <i class="far fa-id-card item"></i>
+                            <center><input type="number" name="documento" placeholder="Documento" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="far fa-envelope item"></i>
+                            <center><input type="text" name="correo" placeholder="Correo" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="fas fa-city item"></i>
+                            <center><input type="text" name="ciudad" placeholder="Ciudad" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="fas fa-mobile-alt item"></i>
+                            <center><input type="number" name="celular" placeholder="Celular" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="fas fa-map-marker-alt item"></i>
+                            <center><input type="text" name="direccion" placeholder="Direccion" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="far fa-building item"></i>
+                            <center><input type="text" name="empresa" placeholder="Empresa" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="fas fa-user-plus item"></i>
+                            <center><input type="text" name="cargo" placeholder="Cargo" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="fas fa-house-user item"></i>
+                            <center><input type="text" name="paisn" placeholder="Pais de nacimiento" class="form-control ir" required></center>
+                        </div>
+                        <div class="inner-addon left-addon">
+                            <i class="fas fa-venus-mars item"></i>
+                            <center><input type="text" name="genero" placeholder="Genero" class="form-control ir" required></center>
+                        </div>
+                        <center><button class="btn btn-success btn24" >Registrar</button></center>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </section>
-    
-
-
+<!--pie de pagina-->
+<section class="espacio2" style="background-color: #0F664F;">
+    <div class="row">
+        <div class="espacio3 col-md-2">
+            <iframe class="espacior" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15907.43493835043!2d-74.18271155000001!3d4.61927965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1591332214385!5m2!1ses-419!2sco" width="120 " height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="col-md-5">
+            <p class="espacior cp"><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis quisquam suscipit</strong></p>
+            <p class="cp1"><strong> Copyright © 2019 </strong></p>
+        </div>
+        <div class="">
+            <img class="imgmt espacior" src="../../assets/all/img/mintrabajo.jpg" alt="">
+        </div>
+    </div>
+</section>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
