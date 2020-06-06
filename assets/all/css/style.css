@@ -37,11 +37,15 @@ margin-right: 3rem;
 
 .espacio2{
     margin-top: 5rem;
+    
 }
 .espacio3{
     margin-left: 11rem;
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> da9b6eda5d667998f97e5f0df73e4fc7bf3ba2cb
 }
 .espacior{
     margin-top: 2rem;
@@ -124,6 +128,7 @@ margin-right: 3rem;
     height: 2rem;}
 
 
+<<<<<<< HEAD
     /* Admin y Empleado */
 .borde1{
     border: 1px solid orange;
@@ -153,4 +158,67 @@ margin-right: 3rem;
 
 
 
+=======
+
+
+/* registro */
+.panel-body{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 20px 20px 20px 20px;
+    
+}  
+
+.hrr{
+    border: solid 1px black ;
+    width: 90%;
+}
+
+.ir{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.br{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+.inner-addon .item {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .item{ 
+    left:  27px;
+}
+
+.right-addon .item{ 
+    right: 0px;
+}
+
+
+.left-addon input{ 
+    padding-left:  30px; 
+}
+
+.right-addon input{
+    padding-right: 30px; 
+}
+
+.btn24{
+    margin-top: 1rem;
+    
+}
+>>>>>>> da9b6eda5d667998f97e5f0df73e4fc7bf3ba2cb
 
