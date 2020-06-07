@@ -1,4 +1,7 @@
 
+i{
+    color: black;
+}
 
 .ifm{
     width: 100%;
@@ -35,6 +38,7 @@ margin-right: 3rem;
     height: 4rem;
     font-size: center;
     line-height: 1.2rem;
+    background-color: #F3F3F3;
     
 }
 
@@ -70,7 +74,18 @@ margin-right: 3rem;
     width: 20rem;
     height: 5rem;}
 
+.espaciolo{
+    margin-top: 5rem;
+}
 
+.espacioim{
+    margin-top: 3rem;
+}
+
+.imgnaran{
+    width: 900px;
+    height: 400px;
+}
 
     /* Ingresar */
 
@@ -286,8 +301,8 @@ pbcr{
 .imgar{
     width: 120px;
     height: 105;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 .tes{text-decoration: none;
@@ -295,14 +310,54 @@ pbcr{
     
 }
 .estext{
-    margin-right: 4rem;
+    margin-right: 8rem;
 }
 
 .estext1{
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 .esb1{
     margin-top: 2rem;
     margin-inline-end: 6rem;
+}
+
+
+/* Seleccion Certificado */
+
+.esbt{
+    margin-top: 3rem;
+}
+
+.imdiv{
+margin-top: 6rem;
+background: url(../img/city.png) no-repeat;
+background-size: cover;
+height: 600px;
+width: 500px;
+border-radius: 20px;
+}
+
+.letrab{
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.sectam{
+    margin-top: 8rem;
+    width: 80%;
+}
+
+
+.btna{
+    margin-top: 10rem;
+    background-color: orangered;
+    color: black;
+    width: 10rem;
+    height: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
 }

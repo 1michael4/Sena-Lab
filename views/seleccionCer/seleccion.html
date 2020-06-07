@@ -6,21 +6,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/6677f676f2.js" ></script>
     <link rel="stylesheet" href="../../assets/all/css/style.css">
-    <title>Perfil</title>
+    <title>Seleccion Certificado</title>
 </head>
 <body>
-    
+
     <nav>
         <iframe class="ifm" src="../../views/layaut/nav.html"></iframe>
     </nav>
-   
+
 
     <section class="espacio2">
         <div class="container">
             <div class="row">
                 
                 <div class="col-md-2 col-1">    
-                    <button class="tmbtn btn btn-light"><strong><a class="clt" href="../../views/ingresar/ingresar.html">Certificados</a></strong></button>
+                    <button class="tmbtn btn btn-light"><strong><a class="clt" href="../administrador/Admin.html">Administrador</a></strong></button>
                 </div>    
                 <div class="col-md-2 col-1">
                     <button class="tmbtn  btn btn-light "><a class="clt" href=""> <strong>Habilitar Certificado</strong> </a></button>
@@ -43,43 +43,37 @@
 
 
     <section>
-        <div class="container espacio2">
+
+        <div class="container">
             <div class="row">
-                <div class="col-md-12 pcol">
-                    <div >
-                        <a href="../administrador/Admin.html"><button  class="btsalir btn btn-outline-dark bts eebtn"><i class="fas fa-angle-left"></i></button></a>
-                    </div>
-                    <div>
-                        <img class="pimg" src="../../assets/all/img/perfil.png" alt="">
-                    </div>
-                    <div>
-                        <p class="letrap"><b> Nombre:Lorem impsum dolor situndefined </b></p>
-                    </div>
-                    <div class="pd" >
-                        <p class="letpd">Ciudad Actual: Bogotá D.C</p>
-                        <p class="letpd1">Telefono: 315 684 75 95</p>
-                        <p class="letpd1">Sena sede: Barrio Colombia</p>
-                        <p class="letpd1">Titulo Profesional: Ingeniero de Sistemas</p>
-                        <p class="letpd1">Tipo de contrato: Indefinido</p>
-                    </div>
-                    <div class="ediv ">
-                        <center> 
-                            <img class="imgcae" src="../../assets/all/img/certificado.jpg" alt="">
-                            <img class="imgar" src="../../assets/all/img/archivosg.jpg" alt="">
-                            <img class="imgcae" src="../../assets/all/img/editar.png" alt="">
-                        </center>
-                    </div>
-                    <div class="esb">
-                        <center>
-                            <a href="../seleccionCer/seleccion.html" class="tes estext"> Certificado</a>
-                            <a href="" class="tes estext "> Archivos  guardados</a>    
-                            <a href="" class="tes  estext1 "> Editar </a><br><br><br>
-                        </center>
-                    </div>
+                
+                <div class="col-md-4">
+                    <a href="../ingresar/ingresar.html"><button  class="btsalir btn btn-outline-dark esbt"><i class="fas fa-angle-left"></i></a> </button>
                 </div>
+    
+                <div class="imdiv " >
+                    <h3 class="letrab">Tipo de Certificado</h3>
+                    <div>
+                        <center>
+                            <select class="custom-select sectam id="inputGroupSelect01">
+                                <option selected>Tipo de Certificado</option>
+                                <option value="1">Certificado Laboral</option>
+                                <option value="2"> Certificado con sueldo</option>
+                                <option value="3"> Certificado funciones &/o obligaciones</option>
+                            </select>
+                        </center>
+                    </div>
+                    <center>
+                        <button class="btn btna"><b> Solicitar </b></button>
+                    </center>
+                </div>
+    
             </div>
         </div>
+        
     </section>
+
+
 
 
 
@@ -102,8 +96,6 @@
             </div>
         </div>    
     </section>
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
